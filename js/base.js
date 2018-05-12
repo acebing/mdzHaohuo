@@ -33,14 +33,3 @@ $(function () {
     $('.yx-cp-m-suggest').hide(); 
 	});
 	// 菜单
-	var navShow = $('.yx-cp-m-tabNav .yx-cp-tabNav-item');
-		navShow.each(function(index, element) {
-		  $(this).mouseout(function () {
-		  alert("sdsd");
-		});
-	});
-		// navShow.each(function(index, element) {
-		//   $(this).mouseout(function () {
-		//   $('.yx-cp-tabNav-dropdown').hide();
-		//    })
-		// });
