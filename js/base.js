@@ -33,14 +33,14 @@ $(function () {
     $('.yx-cp-m-suggest').hide(); 
 	});
 	// 菜单
-	$('.yx-cp-tabNav-dropdown .yx-cp-topLevel').mouseover(function(){
-		for (var i = 0; i < $(this).length; i++) {
-			consol.log()
-		}
-		// $('.yx-cp-tabNav-dropdown').show();	
-		// alert('sdsd')
+	var navShow = $('.yx-cp-m-tabNav .yx-cp-tabNav-item');
+		navShow.each(function(index, element) {
+		  $(this).mouseout(function () {
+		  alert("sdsd");
+		});
 	});
-	$('.yx-cp-tabNav-dropdown .yx-cp-topLevel').mouseout(function(){
-		$('.yx-cp-tabNav-dropdown').hide();
-	});
-});
+		// navShow.each(function(index, element) {
+		//   $(this).mouseout(function () {
+		//   $('.yx-cp-tabNav-dropdown').hide();
+		//    })
+		// });
