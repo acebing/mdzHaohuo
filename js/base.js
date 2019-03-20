@@ -33,3 +33,4 @@ $(function () {
     $('.yx-cp-m-suggest').hide(); 
 	});
 	// 菜单
+	alert('test');
